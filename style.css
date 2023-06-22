@@ -1,0 +1,49 @@
+.body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cats {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    background-color: rgb(58, 10, 201);
+    color: white;
+    border-radius: 10px;
+}
+
+.cats td {
+    padding: 10px;
+}
+
+.cats td[colspan='2'] {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cats td[colspan='1'] {
+    text-align: center;
+}
+
+.cats td[colspan='3'] {
+    text-align: left;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+.cats {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    width: 98.5%;
+    height: 100%;
+    margin: 5px;
+}
